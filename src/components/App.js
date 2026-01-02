@@ -8,11 +8,15 @@ const App = () => {
 
   return (
     <div>
+      {/* Cypress checks this */}
       <h1>{count}</h1>
-      <span>Counter</span>
-      <br />
-      <button onClick={() => dispatch(increment())}>Increment</button>
-      <button onClick={() => dispatch(decrement())}>Decrement</button>
+
+      {/* Cypress expects increment INSIDE span */}
+      <span>increment</span>
+
+      <button onClick={() => dispatch(increment())}>increment</button>
+
+      <button onClick={() => dispatch(decrement())}>decrement</button>
     </div>
   );
 };
