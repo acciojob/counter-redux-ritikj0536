@@ -13,9 +13,13 @@ const App = () => {
 
       {/* Cypress expects increment INSIDE span */}
       <span>increment</span>
-
+      <br></br>
       <button onClick={() => dispatch(increment())}>increment</button>
+            <br></br>
 
+      <span>decrement</span>
+
+      <br></br>
       <button onClick={() => dispatch(decrement())}>decrement</button>
     </div>
   );
