@@ -17,12 +17,12 @@ const App = () => {
 
         {/* 2nd child → increment */}
         <button onClick={() => dispatch(increment())}>
-          increment
+          increment 
         </button>
 
         {/* 3rd child → decrement */}
         <button onClick={() => dispatch(decrement())}>
-          decrement
+          decrease
         </button>
       </div>
     </div>
