@@ -22,7 +22,7 @@ const App = () => {
 
         {/* 3rd child → decrement */}
         <button onClick={() => dispatch(decrement())}>
-          decrease
+          decrement
         </button>
       </div>
     </div>
