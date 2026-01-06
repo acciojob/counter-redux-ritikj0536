@@ -12,8 +12,20 @@ const App = () => {
 
       <div>
         <span>Counter</span>
-        <button onClick={() => dispatch(increment())}>increment</button>
-        <button onClick={() => dispatch(decrement())}>decrement</button>
+
+        <button
+          type="button"
+          onClick={() => dispatch(increment())}
+        >
+          increment
+        </button>
+
+        <button
+          type="button"
+          onClick={() => dispatch(decrement())}
+        >
+          decrement
+        </button>
       </div>
     </div>
   );
